@@ -1756,35 +1756,22 @@ body {
   opacity: 0.95;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 641px) {
   .message-card {
-    top: 10vh;
-    right: 4vw;
-    left: auto;
-    transform: none;
-    width: min(34vw, 420px);
-    padding: 26px 28px;
-    text-align: left;
+    top: 18vh;
+    width: min(58vw, 560px);
+    padding: 28px 30px;
   }
 
   .message-title {
-    font-size: clamp(1.6rem, 1.2vw + 1rem, 2rem);
-    text-align: left;
-  }
-
-  .message-text,
-  .message-note {
-    text-align: left;
+    font-size: clamp(1.7rem, 1.4vw + 1rem, 2.2rem);
   }
 }
 
 @media screen and (max-width: 640px) {
   .message-card {
     top: 10vh;
-    left: 50%;
-    transform: translateX(-50%);
     padding: 20px 18px;
-    text-align: center;
   }
 
   .message-text {
